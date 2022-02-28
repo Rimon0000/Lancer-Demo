@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#blog{
+    float: left;
+    width: 100%;
+    height: 1200px;
+}
+#blog .top{
+    width: 80%;
+    height: 40%;
+    float: left;
+    background-image: url(blog-photos/blog-top.jpg);
+    background-size: cover;
+    margin: 0px 133px;
+}
+#blog .bottom{
+    float: left;
+    width: 50%;
+    height: 60%;
+    margin: -106px 300px;
+    background: white;
+    border-radius: 2%;
+    padding: 34px 35px;
+}
+#blog .bottom h1{
+    letter-spacing: 2px;
+    color:#2c3e50 ;
+}
+#blog .avatar{
+    position: relative;
+    text-align: center;
+    height: 60px;
+}
+#blog .avatar img{
+    width: 68px;
+    position: absolute;
+    transform: translate(-337px, 0px);
+}
+#blog .avatar h6{
+    position: absolute;
+    transform: translate(78px, -23px);
+    font-size: 15px;
+}
+#blog .avatar p{
+    position: absolute;
+    transform: translate(78px, 21px);
+    font-size: 15px;
+}
+#blog .bottom .detail-image{
+    width: 100%;
+}
+#blog .bottom .p{
+    background: #E5E7E9;
+}
